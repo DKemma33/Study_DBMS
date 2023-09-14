@@ -1,0 +1,142 @@
+2023-08-16 10:23:59.536 - DBeaver 22.2.1.202209251341 is starting
+2023-08-16 10:23:59.536 - OS: Windows 10 10.0 (amd64)
+2023-08-16 10:23:59.536 - Java version: 11.0.12 by Eclipse Foundation (64bit)
+2023-08-16 10:23:59.536 - Install path: 'C:\kdt_0900_jdh\dbms\mysql\resource\dbeaver'
+2023-08-16 10:23:59.536 - Instance path: 'file:/C:/kdt_0900_jdh/dbms/mysql/workspace/'
+2023-08-16 10:23:59.536 - Memory available 64Mb/1024Mb
+2023-08-16 10:23:59.549 - Create display
+2023-08-16 10:23:59.676 - Initializing DBeaver 22.2.1
+2023-08-16 10:23:59.676 - Host plugin: org.jkiss.dbeaver.ui.app.standalone 22.2.1.202209251341
+2023-08-16 10:23:59.716 - Initialize desktop platform...
+2023-08-16 10:23:59.892 - BounceCastle bundle found. Use JCE provider BC
+> Start Core File Systems [org.eclipse.core.filesystem 1.9.400.v20220419-0658]
+> Start Core Resource Management [org.eclipse.core.resources 3.17.0.v20220517-0751]
+> Start 팀 지원 핵심 [org.eclipse.team.core 3.9.400.v20220511-1440]
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.90.202209251341]
+2023-08-16 10:24:00.168 - Initialize base platform...
+> Start Expression Language [org.eclipse.core.expressions 3.8.100.v20210910-0640]
+2023-08-16 10:24:00.192 - Platform initialized (476ms)
+> Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.90.202209251341]
+2023-08-16 10:24:00.209 - Starting RMI server at 61491
+2023-08-16 10:24:00.501 - Run workbench
+> Start Eclipse e4 작업영역 SWT [org.eclipse.e4.ui.workbench.swt 0.16.500.v20220506-1520]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.3.200.v20220513-1235]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.5.0.v20210115-1333]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.16.0.v20190528-0725]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.13.100.v20220310-1056]
+> Start Eclipse e4 작업영역 기능 추가 [org.eclipse.e4.ui.workbench.addons.swt 1.4.400.v20211102-0453]
+> Start Eclipse e4 작업영역 SWT 렌더러 [org.eclipse.e4.ui.workbench.renderers.swt 0.15.500.v20220511-1638]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.13.100.v20210722-1426]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.17.100.v20210910-0640]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.14.500.v20220511-1639]
+> Start DBeaver UI [org.jkiss.dbeaver.ui 5.1.105.202209251341]
+Warning: NLS unused message: BlockedJobsDialog_UserInterfaceTreeElement in: org.eclipse.ui.internal.progress.messages
+2023-08-16 10:24:02.553 - Configure workbench window
+> Start 도움말 시스템 코어 [org.eclipse.help 3.9.100.v20210721-0601]
+2023-08-16 10:24:02.689 - Create actions
+2023-08-16 10:24:02.697 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2023-08-16 10:24:02.697 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2023-08-16 10:24:02.697 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2023-08-16 10:24:03.292 - Initialize workbench window
+2023-08-16 10:24:03.304 - Finish initialization
+> Start 기본 문서 편집기 [org.eclipse.ui.editors 3.14.300.v20210913-0815]
+> Start 텍스트 편집기 프레임워크 [org.eclipse.ui.workbench.texteditor 3.16.500.v20220331-0848]
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.80.202209251341]
+2023-08-16 10:24:03.807 - Total database drivers: 100 (100)
+> Start Draw2d [org.eclipse.draw2dl 3.12.100.20220905153936]
+> Start GEF3 GEF (MVC) [org.eclipse.gef3 3.12.100.20220905153936]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.50.202209251341]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.50.202209251341]
+Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui.editors.sql.internal.SQLEditorMessages
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.90.202209251341]
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.90.202209251341]
+> Start Equinox Java Authentication and Authorization Service (JAAS) [org.eclipse.equinox.security 1.3.900.v20220108-1321]
+> Start 인터넷 연결 관리 사용자 인터페이스 [org.eclipse.ui.net 1.4.0.v20210426-0838]
+> Start Internet Connection Management [org.eclipse.core.net 1.3.1200.v20220312-1450]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.127.202209251341]
+> Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.96.202209251341]
+> Start DBeaver UI Editors - Connections [org.jkiss.dbeaver.ui.editors.connection 1.0.81.202209251341]
+> Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.82.202209251341]
+> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.175.202209251341]
+> Start Java Native Access [com.sun.jna 5.8.0.v20210503-0343]
+> Start DBeaver SSH tunnels UI [org.jkiss.dbeaver.net.ssh.ui 1.0.111.202209251341]
+> Start DBeaver SSH tunnels [org.jkiss.dbeaver.net.ssh 1.0.111.202209251341]
+2023-08-16 10:24:18.873 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+> Start DBeaver SSH implementation (SSHJ) [org.jkiss.dbeaver.net.ssh.sshj 1.0.111.202209251341]
+> Start DBeaver SSH implementation (JSch) [org.jkiss.dbeaver.net.ssh.jsch 1.1.100.202209251341]
+2023-08-16 10:24:45.597 - Creating new SecureRandom.
+2023-08-16 10:24:45.677 - No such algorithm: IDEA/CBC/NoPadding
+2023-08-16 10:24:45.677 - No such algorithm: IDEA/CTR/NoPadding
+2023-08-16 10:24:45.697 - Disabling high-strength ciphers: cipher strengths apparently limited by JCE policy
+> Start JSch 핵심 [org.eclipse.jsch.core 1.3.900.v20200422-1935]
+2023-08-16 10:24:45.942 - Client identity string: SSH-2.0-SSHJ_0.34.0
+2023-08-16 10:24:46.357 - Server identity string: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.3
+2023-08-16 10:24:48.403 - Instantiate SSH tunnel
+2023-08-16 10:24:48.403 - Listening on localhost/127.0.0.1:46776
+2023-08-16 10:24:48.512 - Closing listener on localhost/127.0.0.1:46776
+2023-08-16 10:24:48.512 - Server socket closed. Tunnel is terminated
+2023-08-16 10:24:48.515 - Disconnected - BY_APPLICATION
+2023-08-16 10:24:52.497 - Can't load driver properties
+org.jkiss.dbeaver.DBException: Error creating driver 'MySQL' instance.
+Most likely required jar files are missing.
+You should configure jars in driver settings.
+
+Reason: can't load driver class 'com.mysql.cj.jdbc.Driver'
+	at org.jkiss.dbeaver.registry.driver.DriverDescriptor.loadDriver(DriverDescriptor.java:1176)
+	at org.jkiss.dbeaver.registry.driver.DriverDescriptor.loadDriver(DriverDescriptor.java:1112)
+	at org.jkiss.dbeaver.registry.driver.DriverDescriptor.getDriverInstance(DriverDescriptor.java:671)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSourceProvider.getConnectionProperties(JDBCDataSourceProvider.java:63)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ConnectionPropertiesControl.loadDriverProperties(ConnectionPropertiesControl.java:154)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ConnectionPropertiesControl.makeProperties(ConnectionPropertiesControl.java:76)
+	at org.jkiss.dbeaver.ui.dialogs.connection.DriverPropertiesDialogPage.lambda$0(DriverPropertiesDialogPage.java:87)
+	at org.jkiss.dbeaver.runtime.RunnableContextDelegate.lambda$0(RunnableContextDelegate.java:39)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+	at java.base/java.net.URLClassLoader.findClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Unknown Source)
+	at org.jkiss.dbeaver.registry.driver.DriverDescriptor.loadDriver(DriverDescriptor.java:1174)
+	... 8 more
+2023-08-16 10:25:04.477 - Connect with 'jdbc:mysql://localhost:3306/' (mysql8-189fbf23f1e-4c0aa3d4a2b08113)
+2023-08-16 10:25:04.494 - Creating new SecureRandom.
+2023-08-16 10:25:04.494 - No such algorithm: IDEA/CBC/NoPadding
+2023-08-16 10:25:04.494 - No such algorithm: IDEA/CTR/NoPadding
+2023-08-16 10:25:04.499 - Disabling high-strength ciphers: cipher strengths apparently limited by JCE policy
+2023-08-16 10:25:04.557 - Client identity string: SSH-2.0-SSHJ_0.34.0
+2023-08-16 10:25:04.842 - Server identity string: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.3
+2023-08-16 10:25:06.201 - Instantiate SSH tunnel
+2023-08-16 10:25:06.206 - Listening on localhost/127.0.0.1:56720
+2023-08-16 10:25:06.360 - Execution context opened (jdbc:mysql://localhost:3306/; Main; 0)
+> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.114.202209251341]
+2023-08-16 10:25:12.536 - Connected (mysql8-189fbf23f1e-4c0aa3d4a2b08113, MySQL Connector/J [mysql-connector-java-8.0.29 (Revision: dd61577595edad45c398af508cf91ad26fc4144f)])
+2023-08-16 10:25:12.599 - Execution context closed (jdbc:mysql://localhost:3306/, 0)
+2023-08-16 10:25:12.599 - Closing listener on localhost/127.0.0.1:56720
+2023-08-16 10:25:12.599 - Server socket closed. Tunnel is terminated
+2023-08-16 10:25:12.599 - Disconnected - BY_APPLICATION
+2023-08-16 10:25:12.599 - In pipe from < ChannelInputStream for Channel #0 > to java.net.SocketOutputStream@7512733f
+net.schmizz.sshj.transport.TransportException: [BY_APPLICATION] Disconnected
+	at net.schmizz.sshj.transport.TransportImpl.disconnect(TransportImpl.java:396)
+	at net.schmizz.sshj.transport.TransportImpl.disconnect(TransportImpl.java:387)
+	at net.schmizz.sshj.transport.TransportImpl.disconnect(TransportImpl.java:382)
+	at net.schmizz.sshj.SSHClient.disconnect(SSHClient.java:439)
+	at org.jkiss.dbeaver.model.net.ssh.SSHImplementationSshj.lambda$0(SSHImplementationSshj.java:143)
+	at org.jkiss.dbeaver.utils.RuntimeUtils$MonitoringTask.run(RuntimeUtils.java:461)
+	at org.jkiss.dbeaver.utils.RuntimeUtils$1.run(RuntimeUtils.java:245)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-08-16 10:25:12.602 - <<copyDone>> woke to: net.schmizz.sshj.transport.TransportException: [BY_APPLICATION] Disconnected
+2023-08-16 10:25:12.662 - Disconnected (mysql8-189fbf23f1e-4c0aa3d4a2b08113)
+2023-08-16 11:10:36.607 - System suspend detected! Reinitialize all remote connections.
+2023-08-16 12:52:02.664 - System suspend detected! Reinitialize all remote connections.
+2023-08-16 15:29:16.771 - System suspend detected! Reinitialize all remote connections.
+2023-08-16 16:33:51.667 - System suspend detected! Reinitialize all remote connections.
+2023-08-16 17:51:42.579 - System suspend detected! Reinitialize all remote connections.
+2023-08-16 20:11:38.706 - System suspend detected! Reinitialize all remote connections.
+2023-08-16 21:39:39.764 - System suspend detected! Reinitialize all remote connections.
+2023-08-17 00:55:48.781 - System suspend detected! Reinitialize all remote connections.
+2023-08-17 01:07:42.804 - DBeaver is stopping
+2023-08-17 01:07:42.816 - Stop RMI server
+2023-08-17 01:07:42.818 - RMI controller has been stopped
+2023-08-17 01:07:42.844 - DBeaver shutdown completed

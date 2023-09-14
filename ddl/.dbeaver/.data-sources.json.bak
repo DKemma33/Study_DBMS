@@ -1,0 +1,59 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-18929a959eb-337814e39f46f60b": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "localhost",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mysql://localhost:3306/",
+				"configurationType": "MANUAL",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.0",
+				"type": "dev",
+				"properties": {
+					"connectTimeout": "20000",
+					"rewriteBatchedStatements": "true",
+					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2",
+					"allowPublicKeyRetrieval": "True"
+				},
+				"auth-model": "native"
+			}
+		}
+	},
+	"virtual-models": {
+		"mysql8-18929a959eb-337814e39f46f60b": {
+			"study": {
+				"@properties": {
+					"erd.diagram.state": {
+						"serialized": "<diagram version=\"1\" name=\"empty\" time=\"202307071340\"><entities><data-source id=\"mysql8-18929a959eb-337814e39f46f60b\"><entity id=\"1\" name=\"tbl_animal\" fq-name=\"study.tbl_animal\" order=\"0\" x=\"266\" y=\"1242\"><path name=\"study\"/></entity><entity id=\"2\" name=\"tbl_beauty\" fq-name=\"study.tbl_beauty\" order=\"1\" x=\"482\" y=\"1230\"><path name=\"study\"/></entity><entity id=\"3\" name=\"tbl_card\" fq-name=\"study.tbl_card\" order=\"2\" x=\"1001\" y=\"18\"><path name=\"study\"/></entity><entity id=\"4\" name=\"tbl_category1\" fq-name=\"study.tbl_category1\" order=\"3\" x=\"482\" y=\"1693\"><path name=\"study\"/></entity><entity id=\"5\" name=\"tbl_category2\" fq-name=\"study.tbl_category2\" order=\"4\" x=\"266\" y=\"1682\"><path name=\"study\"/></entity><entity id=\"6\" name=\"tbl_category3\" fq-name=\"study.tbl_category3\" order=\"5\" x=\"20\" y=\"1682\"><path name=\"study\"/></entity><entity id=\"7\" name=\"tbl_category_main\" fq-name=\"study.tbl_category_main\" order=\"6\" x=\"266\" y=\"1832\"><path name=\"study\"/></entity><entity id=\"8\" name=\"tbl_company\" fq-name=\"study.tbl_company\" order=\"7\" x=\"577\" y=\"54\"><path name=\"study\"/></entity><entity id=\"9\" name=\"tbl_electronics\" fq-name=\"study.tbl_electronics\" order=\"8\" x=\"681\" y=\"1219\"><path name=\"study\"/></entity><entity id=\"10\" name=\"tbl_file\" fq-name=\"study.tbl_file\" order=\"9\" x=\"95\" y=\"386\"><path name=\"study\"/></entity><entity id=\"11\" name=\"tbl_gym\" fq-name=\"study.tbl_gym\" order=\"10\" x=\"83\" y=\"585\"><path name=\"study\"/></entity><entity id=\"12\" name=\"tbl_lecture\" fq-name=\"study.tbl_lecture\" order=\"11\" x=\"20\" y=\"1114\"><path name=\"study\"/></entity><entity id=\"13\" name=\"tbl_member\" fq-name=\"study.tbl_member\" order=\"12\" x=\"1292\" y=\"53\"><path name=\"study\"/></entity><entity id=\"14\" name=\"tbl_men\" fq-name=\"study.tbl_men\" order=\"13\" x=\"908\" y=\"1207\"><path name=\"study\"/></entity><entity id=\"15\" name=\"tbl_order\" fq-name=\"study.tbl_order\" order=\"14\" x=\"1239\" y=\"320\"><path name=\"study\"/></entity><entity id=\"16\" name=\"tbl_payment\" fq-name=\"study.tbl_payment\" order=\"15\" border-width=\"3\" x=\"819\" y=\"153\"><path name=\"study\"/></entity><entity id=\"17\" name=\"tbl_post\" fq-name=\"study.tbl_post\" order=\"16\" x=\"266\" y=\"918\"><path name=\"study\"/></entity><entity id=\"18\" name=\"tbl_product\" fq-name=\"study.tbl_product\" order=\"17\" x=\"896\" y=\"368\"><path name=\"study\"/></entity><entity id=\"19\" name=\"tbl_professor\" fq-name=\"study.tbl_professor\" order=\"18\" x=\"266\" y=\"1080\"><path name=\"study\"/></entity><entity id=\"20\" name=\"tbl_reply\" fq-name=\"study.tbl_reply\" order=\"19\" x=\"20\" y=\"957\"><path name=\"study\"/></entity><entity id=\"21\" name=\"tbl_shopping_category\" fq-name=\"study.tbl_shopping_category\" order=\"20\" x=\"20\" y=\"1253\"><path name=\"study\"/></entity><entity id=\"22\" name=\"tbl_student\" fq-name=\"study.tbl_student\" order=\"21\" x=\"266\" y=\"1520\"><path name=\"study\"/></entity><entity id=\"23\" name=\"tbl_student_subject\" fq-name=\"study.tbl_student_subject\" order=\"22\" x=\"20\" y=\"1433\"><path name=\"study\"/></entity><entity id=\"24\" name=\"tbl_sub_category\" fq-name=\"study.tbl_sub_category\" order=\"23\" x=\"20\" y=\"1821\"><path name=\"study\"/></entity><entity id=\"25\" name=\"tbl_subject\" fq-name=\"study.tbl_subject\" order=\"24\" x=\"266\" y=\"1381\"><path name=\"study\"/></entity><entity id=\"26\" name=\"tbl_women\" fq-name=\"study.tbl_women\" order=\"25\" x=\"1090\" y=\"1207\"><path name=\"study\"/></entity></data-source></entities><relations><relation name=\"fk_payment_card\" fq-name=\"study.tbl_payment.fk_payment_card\" type=\"fk\" pk-ref=\"3\" fk-ref=\"16\"/><relation name=\"fk_category_1_name\" fq-name=\"study.tbl_category2.fk_category_1_name\" type=\"fk\" pk-ref=\"4\" fk-ref=\"5\"/><relation name=\"fk_category_2_name\" fq-name=\"study.tbl_category3.fk_category_2_name\" type=\"fk\" pk-ref=\"5\" fk-ref=\"6\"/><relation name=\"fk_category_main_name\" fq-name=\"study.tbl_sub_category.fk_category_main_name\" type=\"fk\" pk-ref=\"7\" fk-ref=\"24\"/><relation name=\"fk_payment_company\" fq-name=\"study.tbl_payment.fk_payment_company\" type=\"fk\" pk-ref=\"8\" fk-ref=\"16\"/><relation name=\"fk_card_member\" fq-name=\"study.tbl_card.fk_card_member\" type=\"fk\" pk-ref=\"13\" fk-ref=\"3\"/><relation name=\"fk_file_member\" fq-name=\"study.tbl_file.fk_file_member\" type=\"fk\" pk-ref=\"13\" fk-ref=\"10\"/><relation name=\"fk_member\" fq-name=\"study.tbl_gym.fk_member\" type=\"fk\" pk-ref=\"13\" fk-ref=\"11\"/><relation name=\"fk_order_member\" fq-name=\"study.tbl_order.fk_order_member\" type=\"fk\" pk-ref=\"13\" fk-ref=\"15\"/><relation name=\"fk_payment_member\" fq-name=\"study.tbl_payment.fk_payment_member\" type=\"fk\" pk-ref=\"13\" fk-ref=\"16\"/><relation name=\"fk_post_member\" fq-name=\"study.tbl_post.fk_post_member\" type=\"fk\" pk-ref=\"13\" fk-ref=\"17\"/><relation name=\"fk_reply_post\" fq-name=\"study.tbl_reply.fk_reply_post\" type=\"fk\" pk-ref=\"17\" fk-ref=\"20\"/><relation name=\"fk_order_product\" fq-name=\"study.tbl_order.fk_order_product\" type=\"fk\" pk-ref=\"18\" fk-ref=\"15\"/><relation name=\"fk_payment_product\" fq-name=\"study.tbl_payment.fk_payment_product\" type=\"fk\" pk-ref=\"18\" fk-ref=\"16\"/><relation name=\"fk_lecture_professor\" fq-name=\"study.tbl_lecture.fk_lecture_professor\" type=\"fk\" pk-ref=\"19\" fk-ref=\"12\"/><relation name=\"fk_student_subject_student\" fq-name=\"study.tbl_student_subject.fk_student_subject_student\" type=\"fk\" pk-ref=\"22\" fk-ref=\"23\"/><relation name=\"fk_lecture_subject\" fq-name=\"study.tbl_lecture.fk_lecture_subject\" type=\"fk\" pk-ref=\"25\" fk-ref=\"12\"/><relation name=\"fk_student_subject_subject\" fq-name=\"study.tbl_student_subject.fk_student_subject_subject\" type=\"fk\" pk-ref=\"25\" fk-ref=\"23\"/></relations></diagram>"
+					}
+				},
+				":tbl_product": {
+					"constraints": {
+						"tbl_product_VK": {
+							"type": "vpk",
+							"attributes": [
+								"product_name"
+							]
+						}
+					}
+				}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}

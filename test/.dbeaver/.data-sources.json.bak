@@ -1,0 +1,60 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-1892fc1a3be-420db504d3f66db4": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "localhost",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mysql://localhost:3306/",
+				"configurationType": "MANUAL",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.0",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"mysql8-1894e11cb90-36425a6841c7c4a7": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "localhost 2",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mysql://localhost:3306/",
+				"configurationType": "MANUAL",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.0",
+				"type": "dev",
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"virtual-models": {
+		"mysql8-1892fc1a3be-420db504d3f66db4": {
+			"study": {
+				"@properties": {
+					"erd.diagram.state": {
+						"serialized": "<diagram version=\"1\" name=\"empty\" time=\"202307081913\"><entities><data-source id=\"mysql8-1892fc1a3be-420db504d3f66db4\"><entity id=\"1\" name=\"tbl_card\" fq-name=\"study.tbl_card\" order=\"0\" x=\"468\" y=\"66\"><path name=\"study\"/></entity><entity id=\"2\" name=\"tbl_company\" fq-name=\"study.tbl_company\" order=\"1\" x=\"91\" y=\"533\"><path name=\"study\"/></entity><entity id=\"3\" name=\"tbl_order\" fq-name=\"study.tbl_order\" order=\"2\" x=\"50\" y=\"144\"><path name=\"study\"/></entity><entity id=\"4\" name=\"tbl_order_detail\" fq-name=\"study.tbl_order_detail\" order=\"3\" x=\"175\" y=\"326\"><path name=\"study\"/></entity><entity id=\"5\" name=\"tbl_payment\" fq-name=\"study.tbl_payment\" order=\"4\" x=\"315\" y=\"229\"><path name=\"study\"/></entity><entity id=\"6\" name=\"tbl_product\" fq-name=\"study.tbl_product\" order=\"5\" border-width=\"3\" x=\"346\" y=\"511\"><path name=\"study\"/></entity><entity id=\"7\" name=\"tbl_sequence\" fq-name=\"study.tbl_sequence\" order=\"6\" x=\"2\" y=\"325\"><path name=\"study\"/></entity><entity id=\"8\" name=\"tbl_user\" fq-name=\"study.tbl_user\" order=\"7\" x=\"279\" y=\"43\"><path name=\"study\"/></entity></data-source></entities><relations><relation name=\"fk_payment_card\" fq-name=\"study.tbl_payment.fk_payment_card\" type=\"fk\" pk-ref=\"1\" fk-ref=\"5\"/><relation name=\"fk_product_company\" fq-name=\"study.tbl_product.fk_product_company\" type=\"fk\" pk-ref=\"2\" fk-ref=\"6\"/><relation name=\"fk_order_detail_order\" fq-name=\"study.tbl_order_detail.fk_order_detail_order\" type=\"fk\" pk-ref=\"3\" fk-ref=\"4\"/><relation name=\"fk_payment_order\" fq-name=\"study.tbl_payment.fk_payment_order\" type=\"fk\" pk-ref=\"3\" fk-ref=\"5\"/><relation name=\"fk_order_detail_product\" fq-name=\"study.tbl_order_detail.fk_order_detail_product\" type=\"fk\" pk-ref=\"6\" fk-ref=\"4\"/><relation name=\"fk_card_member\" fq-name=\"study.tbl_card.fk_card_member\" type=\"fk\" pk-ref=\"8\" fk-ref=\"1\"/><relation name=\"fk_order_user\" fq-name=\"study.tbl_order.fk_order_user\" type=\"fk\" pk-ref=\"8\" fk-ref=\"3\"/><relation name=\"fk_payment_user\" fq-name=\"study.tbl_payment.fk_payment_user\" type=\"fk\" pk-ref=\"8\" fk-ref=\"5\"/></relations></diagram>"
+					}
+				}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
